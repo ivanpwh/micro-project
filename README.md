@@ -8,6 +8,10 @@ Micro Github project is a mini project for search Github users, views all the re
 * View all repositories
 * Read the markdown section
 
+## Example
+
+[Live Demo](https://micro-github-project.netlify.com)
+
 ## Installation
 
 ### NPM
