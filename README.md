@@ -1,8 +1,35 @@
-# micro-project
+# Micro Github Project
 
-> A Vue.js project
+Micro Github project is a mini project for search Github users, views all the repositories and view the markdown section.
+
+## Usage
+
+* Search Github user easily
+* View all repositories
+* Read the markdown section
+
+## Installation
+
+### NPM
+Use the package manager [npm](https://www.npmjs.com/) to run Micro Github Project.
+
+
+### Git
+[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) or download the project to your local storage using git command.
+
+```git
+git clone https://github.com/ivanpwh/micro-project.git
+```
 
 ## Build Setup
+
+Change directory to micro Github project on your local storage.
+
+``` bash
+cd micro-project
+```
+
+Run the project by executing this code.
 
 ``` bash
 # install dependencies
@@ -15,4 +42,7 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
