@@ -11,6 +11,5 @@ export const getUserRepositories = (user) => axios.get(`users/${user}/repos`)
 export const getMarkdown = (user, repository) => axios.get(`repos/${user}/${repository}/readme`)
   .then(res => res)
   .catch((err) => {
-    console.log('err :', err.response);
     throw err.response
   })

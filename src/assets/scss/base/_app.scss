@@ -1,0 +1,25 @@
+// base variables
+$grey-one: #d9d9d9;
+$grey-two: #999;
+$grey-three: #f5f5f5;
+$dark-one: #555;
+$blue-ocean: #00B0FF;
+$shadow: #ccc3c354;
+
+// mixins
+@mixin font($fontsize, $fontweight: 400,$color:$color-text){
+  font-size: $fontsize;
+  font-weight: $fontweight;
+  color: $color;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("./assets/img/whirlpool.png");
+}

@@ -66,11 +66,21 @@ module.exports = {
         options: {
           name: '[name].[ext]?[hash]'
         }
+      },
+      {
+        test: /\.(woff2?|eot|ttf|otf)$/,
+        loader: 'file-loader',
+        options: {
+          limit: 10000,
+          name: '[name].[hash:7].[ext]'
+        }
       }
     ]
   },
   resolve: {
     alias: {
+      // Relative path to your root dir (adjust accordingly)
+      '@': path.resolve(__dirname, './src'),
       'vue$': 'vue/dist/vue.esm.js'
     },
     extensions: ['*', '.js', '.vue', '.json']

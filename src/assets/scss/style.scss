@@ -1,0 +1,16 @@
+// ======== CSS Structure ========= //
+// [block]__[element]--[modifier]
+
+// ======== IMPORRT FILE ========= //
+
+/* BASE - older holds what we might call the boilerplate stuff for your project
+========================================================================== */
+@import 'base/_app';
+
+/* PAGES - Page specific styles
+========================================================================== */
+@import 'pages/_home';
+
+/* HELPERS - Base Variable file along with starting point Mixins and Placeholders.
+========================================================================== */
+@import 'helpers/_placeholders';
